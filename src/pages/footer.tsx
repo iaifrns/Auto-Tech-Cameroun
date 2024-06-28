@@ -1,0 +1,62 @@
+import { Icon } from "@iconify/react/dist/iconify.js";
+import { images } from "../constants/images";
+
+const Footer = () => {
+  return (
+    <div className="flex flex-col">
+      <div className="p-10 bg-yellow-500 flex justify-evenly items-center max-md:flex-col max-md:gap-4  max-md:items-start">
+        <p className="text-white font-bold text-xl max-md:text-lg">
+          PRENEZ RENDEZ-VOUS OU APPELEZ-NOUS : +237 658 162 034
+        </p>
+        <button className="p-4 bg-secondary text-white font-bold">
+          Contactez Nous
+        </button>
+      </div>
+      <div className="h-[70vh] w-full">
+        <div className="w-full h-[70vh] absolute bg-black opacity-80">
+          <div className="w-full h-full flex flex-col justify-center items-center gap-8">
+            <div className="flex gap-2 items-center">
+              <img alt="Auto Tech Cameroon" src={images.LOGO} className="w-[80px]" />
+              <p className="text-white font-bold text-[40px]">
+                Auto <span className="text-secondary">Tech</span> Cameroon
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 items-center">
+              <p className="text-gray-500 font-bold text-2xl">EMAIL :</p>
+              <p className="font-bold text-white">autotechCameroun@gmail.com</p>
+            </div>
+            <div className="flex flex-col gap-4 items-center">
+              <p className="text-gray-500 font-bold text-2xl">
+                HORAIRES D'OUVERTURE :
+              </p>
+              <p className="font-bold text-white">
+                Lundi - Vendredi : 9h00 - 17h00, Samedi : 9h00 - 12h00
+              </p>
+              <p className="font-bold text-white">
+                Dimanche: <span className="text-red-500">Fermer</span>
+              </p>
+            </div>
+            <div className="flex items-center">
+              <Icon
+                icon="carbon:phone-filled"
+                width={40}
+                className="text-secondary"
+              />
+              <span className="text-[40px] text-white font-bold">
+                +237 691 365 544
+              </span>
+            </div>
+          </div>
+          <div className="flex justify-center p-4 bg-gray-950">
+            <p className="text-lg font-bold text-white">
+              © 2021 QODE INTERACTIVE, TOUS DROITS RÉSERVÉS
+            </p>
+          </div>
+        </div>
+        <img src={images.FOOTERIMG} className="w-full h-full object-cover" />
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
