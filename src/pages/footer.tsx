@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="flex gap-2 items-center">
               <img alt="Auto Tech Cameroon" src={images.LOGO} className="w-[80px] max-md:w-[50px]" />
               <p className="text-white font-bold text-[40px]  max-md:text-[24px]">
-                Auto <span className="text-secondary">Tech</span> Cameroon
+                Auto <span className="text-secondary">Tech</span> Cameroun
               </p>
             </div>
             <div className="flex flex-col gap-4 items-center">
