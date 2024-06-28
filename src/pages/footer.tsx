@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex justify-center p-4 bg-gray-950">
-            <p className="text-lg font-bold text-white  max-md:text-sm">
+            <p className="text-lg font-bold text-white max-md:text-sm max-md:text-center">
               © 2021 QODE INTERACTIVE, TOUS DROITS RÉSERVÉS
             </p>
           </div>
