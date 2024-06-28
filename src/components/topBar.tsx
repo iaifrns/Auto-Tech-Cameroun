@@ -1,7 +1,21 @@
+import { useState } from "react";
 import { images } from "../constants/images";
 
 const MenuLink = ({ text }: { text: string }) => {
-  return <p className="font-bold cursor-pointer">{text}</p>;
+  const [isHover, setIsHover] = useState(false);
+  return (
+    <div className="h-4">
+      <p
+        onMouseEnter={() => setIsHover(true)}
+        onMouseLeave={() => setIsHover(false)}
+        className={`font-bold cursor-pointer ${
+          isHover ? "text-primary border-b-4 border-primary" : ""
+        }`}
+      >
+        {text}
+      </p>
+    </div>
+  );
 };
 
 const TopBar = () => {

@@ -34,7 +34,7 @@ const Hero = () => {
                 {data.desc}
               </p>
               <button className="p-4 bg-secondary text-white font-bold w-[300px]">
-                Nous Service
+                Nos Service
               </button>
             </div>
             <img src={images.HEROIMAGE} width={"400px"} className="h-[500px] max-md:hidden" />
