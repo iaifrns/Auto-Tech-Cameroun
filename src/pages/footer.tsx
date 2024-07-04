@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-4 items-center">
               <p className="text-gray-500 font-bold text-2xl">EMAIL :</p>
-              <p className="font-bold text-white">autotechCameroun@gmail.com</p>
+              <p className="font-bold text-white">contact@autotechcameroun.com</p>
             </div>
             <div className="flex flex-col gap-4 items-center">
               <p className="text-gray-500 font-bold text-2xl">
