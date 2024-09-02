@@ -19,6 +19,9 @@ import salesimg3 from "../assets/13.png";
 import banner from "../assets/Yellow Black Modern News Media New LinkedIn Banner.png";
 import salesimg4 from "../assets/mechaImg1.png";
 import footerIng from "../assets/footerImg.jpg";
+import newImg1 from "../assets/new image/img1.jpg";
+import carImg1 from "../assets/new image/carimage1.png";
+import carImg2 from "../assets/new image/carimage2.jpg";
 
 export const heroImage = [image1, image2, image3];
 
@@ -44,4 +47,8 @@ export const images = {
   SALESIMG4: salesimg4,
   BANNER: banner,
   FOOTERIMG: footerIng,
+
+  NEWIMG1: newImg1,
+  CARIMG1: carImg1,
+  CARIMG2: carImg2
 };
