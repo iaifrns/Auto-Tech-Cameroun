@@ -59,3 +59,35 @@ export const serviceData2: ServiceType[] = [
     image: images.SERVICEIMG6,
   },
 ];
+
+export interface NewServiceType {
+  image: string;
+  title: string;
+}
+
+export const newService : NewServiceType[] = [
+  {
+    image: images.CARIMG4,
+    title: "Exterior Detailing"
+  },
+  {
+    image: images.CARIMG2,
+    title: "Interior Detailing"
+  },
+  {
+    image: images.CARIMG3,
+    title: "Exterior Detailing"
+  },
+  {
+    image: images.CARIMG8,
+    title: "Exterior Detailing"
+  },
+  {
+    image: images.CARIMG6,
+    title: "Exterior Detailing"
+  },
+  {
+    image: images.CARIMG7,
+    title: "Exterior Detailing"
+  },
+]

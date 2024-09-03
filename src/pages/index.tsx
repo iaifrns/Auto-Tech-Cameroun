@@ -6,12 +6,14 @@ import Testimonies from "./testimonies";
 import WhatWeDo from "./whatWeDo";
 import NewHero from "./NewHero";
 import OurStats from "./OurStats";
+import NewOurService from "./NewOurService";
 
 const MainPage = () => {
     return (
-        <div className="w-full flex flex-col m-0 p-0 gap-2 font-montserrat">
+        <div className="w-full flex flex-col m-0 p-0 font-montserrat">
             <NewHero />
             <OurStats />
+            <NewOurService />
             <Services/>
             <ServicesSection2/>
             <Testimonies/>

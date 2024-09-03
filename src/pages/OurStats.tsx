@@ -16,9 +16,9 @@ const StatsItems: React.FC<StatsItemType> = ({ title, desc }) => (
 
 const OurStats = () => {
   return (
-    <div className="h-screen w-full relative">
+    <div className="h-[700px] w-full relative">
       <div className="z-10 absolute h-full w-full bg-secondary bg-opacity-60">
-        <div className="flex flex-col w-full h-full justify-center items-center gap-8">
+        <div className="flex flex-col w-full h-full justify-center items-center gap-16">
           <div className="flex justify-between w-[85%]">
             <div className="flex flex-col gap-4 w-[70%]">
               <p className="font-bold text-white">

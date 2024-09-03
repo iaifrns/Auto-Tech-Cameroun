@@ -19,9 +19,16 @@ import salesimg3 from "../assets/13.png";
 import banner from "../assets/Yellow Black Modern News Media New LinkedIn Banner.png";
 import salesimg4 from "../assets/mechaImg1.png";
 import footerIng from "../assets/footerImg.jpg";
+
 import newImg1 from "../assets/new image/img1.jpg";
 import carImg1 from "../assets/new image/carimage1.png";
+import carImg3 from "../assets/new image/img2.jpg";
 import carImg2 from "../assets/new image/carimage2.jpg";
+import carImg4 from "../assets/new image/img3.jpg";
+import carImg5 from "../assets/new image/pexels-ahmed-fahmy-1654571123-27908985.jpg";
+import carImg6 from "../assets/new image/pexels-artempodrez-8986044.jpg";
+import carImg7 from "../assets/new image/pexels-navadheer-4571371.jpg";
+import carImg8 from "../assets/new image/pexels-matt-jerome-connor-1428905-4439585.jpg";
 
 export const heroImage = [image1, image2, image3];
 
@@ -50,5 +57,11 @@ export const images = {
 
   NEWIMG1: newImg1,
   CARIMG1: carImg1,
-  CARIMG2: carImg2
+  CARIMG2: carImg2,
+  CARIMG3: carImg3,
+  CARIMG4: carImg4,
+  CARIMG5: carImg5,
+  CARIMG6: carImg6,
+  CARIMG7: carImg7,
+  CARIMG8: carImg8,
 };

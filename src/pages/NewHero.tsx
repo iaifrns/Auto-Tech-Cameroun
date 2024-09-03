@@ -73,7 +73,7 @@ const NewHero = () => {
             <div className="absolute w-full">
               <div className="w-full flex items-end justify-end">
                 <img
-                  src={images.NEWIMG1}
+                  src={images.CARIMG3}
                   alt="car taken care"
                   className="w-[300px] mb-8 absolute left-10"
                 />
