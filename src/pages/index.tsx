@@ -7,6 +7,7 @@ import WhatWeDo from "./whatWeDo";
 import NewHero from "./NewHero";
 import OurStats from "./OurStats";
 import NewOurService from "./NewOurService";
+import NewAboutUs from "./NewAboutUs";
 
 const MainPage = () => {
     return (
@@ -14,6 +15,7 @@ const MainPage = () => {
             <NewHero />
             <OurStats />
             <NewOurService />
+            <NewAboutUs/>
             <Services/>
             <ServicesSection2/>
             <Testimonies/>

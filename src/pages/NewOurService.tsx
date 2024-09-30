@@ -35,7 +35,7 @@ const NewOurService = () => {
                 leadership ignites progress; we stand ready to ready advance
                 your history and shape tomorrow.
               </p>
-              <button className="border-[1px] rounded-lg w-[200px] p-6 text-white font-bold border-orange-700">
+              <button className="border-[1px] rounded-lg w-[200px] p-6 text-white font-bold border-orange-700 hover:bg-primary">
                 All Service
               </button>
             </div>
