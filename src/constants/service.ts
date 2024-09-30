@@ -70,7 +70,7 @@ export const newService: NewServiceType[] = [
   {
     image: images.CARIMG2,
     title: "Exterior Detailing",
-    heigth: "h-[450px]",
+    heigth: "h-[475px]",
   },
   {
     image: images.CARIMG4,
@@ -80,7 +80,7 @@ export const newService: NewServiceType[] = [
   {
     image: images.CARIMG3,
     title: "Analysis Detailing",
-    heigth: "h-[450px]",
+    heigth: "h-[475px]",
   },
   {
     image: images.CARIMG8,
@@ -90,7 +90,7 @@ export const newService: NewServiceType[] = [
   {
     image: images.CARIMG6,
     title: "Best Equipments",
-    heigth: "h-[400px]",
+    heigth: "h-[450px]",
   },
   {
     image: images.CARIMG7,

@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import { newService, NewServiceType } from "../constants/service";
-import useIsVisible from "../hooks/isVisble";
 
 const ServiceItem: React.FC<NewServiceType> = ({ image, title, heigth }) => (
   <div className={`relative w-[47%] m-2 ${heigth}`}>
@@ -16,33 +15,34 @@ const ServiceItem: React.FC<NewServiceType> = ({ image, title, heigth }) => (
 const NewOurService = () => {
   const imageDivRef = useRef<HTMLDivElement | null>(null);
   const divRef = useRef<HTMLDivElement | null>(null);
-  const [halfHeight, setHalfHeight] = useState("auto");
-
-  useEffect(() => {
-    if (imageDivRef.current) {
-      const fullHeight = imageDivRef.current.offsetHeight;
-      setHalfHeight(`${fullHeight / 2}px`);
-    }
-  }, []);
-
-  const [isFullVisible, setIsFullVisible] = useState(false);
-  const visible = useIsVisible(divRef)
-  setIsFullVisible(false);
 
   return (
     <div
-      className={`bg-secondary h-[98vh] w-full relative ${
-        isFullVisible ? "overflow-auto" : "overflow-hidden"
-      } scrollbar-hide`}
+      className={`bg-secondary h-[1800px] w-full flex justify-center items-center scrollbar-hide`}
       ref={divRef}
     >
-      <div className="flex w-[95%] p-8 justify-end">
-        <div
-          className="flex w-[50%] h-fit justify-end"
-          ref={imageDivRef}
-          style={{ height: halfHeight }}
-        >
-          <div className="w-full flex flex-wrap flex-col ">
+      <div className="flex w-[95%] p-8 justify-between">
+        <div className="flex flex-col items-center w-[50%]">
+          <div className="sticky top-0 w-[80%]">
+            <div className="flex flex-col py-16 gap-6">
+              <p className="text-white font-bold">SERVICE</p>
+              <p className="text-white font-bold text-[42px]">
+                A to Z Auto Detailing Service For Your Beautiful Car
+              </p>
+              <p className="text-lg text-gray-400">
+                Cultivating change enthusiasts fuels success, resulting in
+                superior, more efficient, and robust innovations. Your
+                leadership ignites progress; we stand ready to ready advance
+                your history and shape tomorrow.
+              </p>
+              <button className="border-[1px] rounded-lg w-[200px] p-6 text-white font-bold border-orange-700">
+                All Service
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="flex w-[50%] h-[1700px] justify-end" ref={imageDivRef}>
+          <div className="w-full flex flex-col flex-wrap">
             {newService.map((service) => (
               <ServiceItem
                 image={service.image}
