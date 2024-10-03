@@ -1,13 +1,10 @@
 import SellsSection from "./sells";
 import Footer from "./footer";
-import Services from "./services";
-import ServicesSection2 from "./services2";
-import Testimonies from "./testimonies";
-import WhatWeDo from "./whatWeDo";
 import NewHero from "./NewHero";
 import OurStats from "./OurStats";
 import NewOurService from "./NewOurService";
 import NewAboutUs from "./NewAboutUs";
+import NewTestimonies from "./NewTestimonies";
 
 const MainPage = () => {
     return (
@@ -16,10 +13,7 @@ const MainPage = () => {
             <OurStats />
             <NewOurService />
             <NewAboutUs/>
-            <Services/>
-            <ServicesSection2/>
-            <Testimonies/>
-            <WhatWeDo/>
+            <NewTestimonies/>
             <SellsSection/>
             <Footer/>
         </div>
