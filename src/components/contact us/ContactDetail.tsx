@@ -8,9 +8,9 @@ const Points = ({text}: {text:string}) => {
 }
 const ContactDetail = () => {
   return (
-    <div className="p-4 flex flex-col gap-8 w-[600px] text-white">
+    <div className="p-4 flex flex-col gap-8 md:w-[600px] text-white">
       <p className="font-bold">BOOKING</p>
-      <p className="font-bold text-[38px]">Experience the Difference with Our Detailing Mastery</p>
+      <p className="font-bold md:text-[38px] text-xl">Experience the Difference with Our Detailing Mastery</p>
       <p className="font-bold">
         Setting the Benchmark for Auto Detailing Excellence, We Restore Beauty
         and Enhance Performance, Making Your Vehicle Shine Like Never Before.

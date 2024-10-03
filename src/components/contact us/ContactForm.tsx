@@ -19,7 +19,7 @@ const ContactInput:React.FC<ContactType> = ({label}) => {
 
 const ContactForm = () => {
   return (
-    <div className="p-4 flex flex-col gap-8 w-[600px]">
+    <div className="md:p-4 flex flex-col gap-8 md:w-[600px] w-[90%]">
       <ContactInput label="Your Name" />
       <ContactInput label="Email Address" />
       <ContactInput label="Phone Number" />

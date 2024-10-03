@@ -8,14 +8,20 @@ const Footer = () => {
         <div className="w-full h-[70vh] absolute bg-black opacity-80">
           <div className="w-full h-full flex flex-col justify-center items-center gap-8 max-md:p-4">
             <div className="flex gap-2 items-center">
-              <img alt="Auto Tech Cameroon" src={images.LOGO} className="w-[80px] max-md:w-[50px]" />
+              <img
+                alt="Auto Tech Cameroon"
+                src={images.LOGO}
+                className="w-[80px] max-md:w-[50px]"
+              />
               <p className="text-white font-bold text-[40px]  max-md:text-[24px]">
-                Auto <span className="text-secondary">Tech</span> Cameroun
+                Auto Tech Cameroun
               </p>
             </div>
             <div className="flex flex-col gap-4 items-center">
               <p className="text-gray-500 font-bold text-2xl">EMAIL :</p>
-              <p className="font-bold text-white">contact@autotechcameroun.com</p>
+              <p className="font-bold text-white">
+                contact@autotechcameroun.com
+              </p>
             </div>
             <div className="flex flex-col gap-4 items-center">
               <p className="text-gray-500 font-bold text-2xl">
