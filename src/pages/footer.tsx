@@ -4,14 +4,6 @@ import { images } from "../constants/images";
 const Footer = () => {
   return (
     <div className="flex flex-col">
-      <div className="p-10 bg-yellow-500 flex justify-evenly items-center max-md:flex-col max-md:gap-4  max-md:items-start">
-        <p className="text-white font-bold text-xl max-md:text-lg">
-          PRENEZ RENDEZ-VOUS OU APPELEZ-NOUS : +237 658 162 034
-        </p>
-        <button className="p-4 bg-secondary text-white font-bold">
-          Contactez Nous
-        </button>
-      </div>
       <div className="h-[70vh] w-full">
         <div className="w-full h-[70vh] absolute bg-black opacity-80">
           <div className="w-full h-full flex flex-col justify-center items-center gap-8 max-md:p-4">

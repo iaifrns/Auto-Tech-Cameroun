@@ -12,6 +12,9 @@ export default {
       },
       fontFamily : {
         montserrat : ["Montserrat", "sans-serif"]
+      },
+      backgroundImage:{
+        "bg-img": 'url("src/assets/pexels-khunkorn-laowisit-1359149-5233258.jpg")'
       }
     },
   },

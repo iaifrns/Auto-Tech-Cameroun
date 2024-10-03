@@ -5,6 +5,7 @@ import OurStats from "./OurStats";
 import NewOurService from "./NewOurService";
 import NewAboutUs from "./NewAboutUs";
 import NewTestimonies from "./NewTestimonies";
+import ContactUs from "./ContactUs";
 
 const MainPage = () => {
     return (
@@ -15,6 +16,7 @@ const MainPage = () => {
             <NewAboutUs/>
             <NewTestimonies/>
             <SellsSection/>
+            <ContactUs/>
             <Footer/>
         </div>
     )

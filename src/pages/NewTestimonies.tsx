@@ -35,10 +35,10 @@ const NewTestimonies = () => {
 
   return (
     <div className="w-full h-[1300px] relative">
-      <div className="absolute bg-secondary w-full h-full bg-opacity-80">
+      <div className="absolute bg-secondary w-full h-[1300px] bg-opacity-80">
         <div className="w-full flex justify-between h-full">
-          <div className="w-[50%] flex justify-center mt-6">
-            <div className="sticky w-[650px] p-8 h-fit">
+          <div className="w-[50%] flex flex-col items-center mt-6">
+            <div className="sticky w-[650px] p-8 top-0">
               <div className="flex flex-col gap-8">
                 <p className="font-bold text-white">REVIEW</p>
                 <p className="font-bold text-[32px] text-white">
