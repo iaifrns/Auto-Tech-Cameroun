@@ -1,5 +1,3 @@
-import React from "react";
-
 const TextComponent = () => {
   return (
     <div id="container" className="relative h-[1500px] overflow-auto border p-4 top-28 ">
