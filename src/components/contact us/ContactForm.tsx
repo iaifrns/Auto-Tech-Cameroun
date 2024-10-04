@@ -24,7 +24,7 @@ const ContactForm = () => {
       <ContactInput label="Adresse e-mail" />
       <ContactInput label="Numéro de téléphone" />
       <ContactInput label="Message" />
-      <button className="text-white font-bold text-lg py-6 w-[300px] bg-secondary">
+      <button className="text-white font-bold text-lg py-6 w-[300px] bg-secondary rounded-sm">
         Détails de la réservation
       </button>
     </div>

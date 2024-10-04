@@ -38,7 +38,7 @@ const NewOurService = () => {
                 plus robustes. Votre leadership stimule le progrès; nous sommes
                 prêts à faire avancer votre histoire et à façonner demain.
               </p>
-              <button className="border-[1px] rounded-lg w-[200px] p-6 text-white font-bold border-orange-700 hover:bg-primary">
+              <button className="border-[1px] rounded-sm w-[200px] p-6 text-white font-bold border-orange-700 hover:bg-primary">
                 Tous les services
               </button>
             </div>

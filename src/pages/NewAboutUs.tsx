@@ -62,7 +62,7 @@ const NewAboutUs = () => {
               <PointText text="Expertise et expérience : Équipe composée de membres qualifiés et expérimentés." />
               <PointText text="Prise en charge complète : Solutions intérieures et extérieures." />
             </div>
-            <button className="w-[250px] bg-primary text-white font-semibold md:p-6 max-md:p-4 rounded-lg mt-2 cursor-default">
+            <button className="w-[250px] bg-primary text-white font-semibold md:p-6 max-md:p-4 rounded-sm mt-2 cursor-default">
               À PROPOS DE NOUS
             </button>
           </div>

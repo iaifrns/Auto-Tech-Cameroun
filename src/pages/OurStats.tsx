@@ -8,11 +8,11 @@ interface StatsItemType {
 }
 
 const StatsItems: React.FC<StatsItemType> = ({ title, desc }) => (
-  <div className="p-4 flex flex-col w-[300px] gap-2">
-    <p className="text-primary font-semibold max-md:text-2xl md:text-4xl">
+  <div className="p-4 flex flex-col w-[300px] gap-2 max-md:items-center">
+    <p className="text-primary font-semibold max-md:text-2xl md:text-4xl max-md:text-center">
       {title}
     </p>
-    <p className="text-white font-bold max-md:text-sm">{desc}</p>
+    <p className="text-white font-bold max-md:text-sm max-md:text-center max-md:w-[200px]">{desc}</p>
   </div>
 );
 

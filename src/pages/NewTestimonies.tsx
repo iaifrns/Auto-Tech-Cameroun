@@ -61,7 +61,7 @@ const NewTestimonies = () => {
                     Si vous avez besoin d'aide ou si vous avez des questions,
                     veuillez contacter notre agent.
                   </p>
-                  <button className="md:p-4 max-md:p-4 border border-primary text-white font-bold w-[300px] h-fit max-md:text-xs text-[12px]">
+                  <button className="md:p-4 max-md:p-4 border border-primary text-white font-bold w-[300px] h-fit max-md:text-xs text-[12px] rounded-sm">
                     Contactez-nous maintenant
                   </button>
                 </div>
