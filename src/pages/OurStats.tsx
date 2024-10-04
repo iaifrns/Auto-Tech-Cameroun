@@ -9,7 +9,9 @@ interface StatsItemType {
 
 const StatsItems: React.FC<StatsItemType> = ({ title, desc }) => (
   <div className="p-4 flex flex-col w-[300px] gap-2">
-    <p className="text-primary font-semibold max-md:text-2xl md:text-4xl">{title}</p>
+    <p className="text-primary font-semibold max-md:text-2xl md:text-4xl">
+      {title}
+    </p>
     <p className="text-white font-bold max-md:text-sm">{desc}</p>
   </div>
 );
@@ -22,10 +24,10 @@ const OurStats = () => {
           <div className="flex max-md:flex-col justify-between w-[85%]">
             <div className="flex flex-col gap-4 md:w-[70%]">
               <p className="hidden md:block font-bold text-white">
-                UNLEASH THE SHINE, DRIVE IN STYLE
+                LIBÉREZ LA BRILLANCE, ROULEZ AVEC STYLE
               </p>
               <p className="max-md:text-xl md:text-[38px] font-bold text-white">
-                Expert Care for Your Precious Excellence Vehicle
+                Soin d'expert pour votre véhicule d'excellence précieux
               </p>
             </div>
             <div className="flex max-md:py-8 md:justify-center items-center flex-2 md:w-[30%]">
@@ -42,15 +44,15 @@ const OurStats = () => {
             <StatsItems title="3,416" desc="" />
             <StatsItems
               title="6,154"
-              desc="Projects And Residentials Completed in 2019"
+              desc="Projets et résidences réalisés en 2019"
             />
             <StatsItems
               title="2,612"
-              desc="Projects And Residentials Completed in 2019"
+              desc="Nombre total de clients depuis 2019"
             />
             <StatsItems
               title="1,754"
-              desc="Projects And Residentials Completed in 2019"
+              desc="Nombre de clients revenus depuis 2019"
             />
           </div>
         </div>

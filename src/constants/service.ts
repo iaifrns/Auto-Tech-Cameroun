@@ -69,32 +69,32 @@ export interface NewServiceType {
 export const newService: NewServiceType[] = [
   {
     image: images.CARIMG2,
-    title: "Exterior Detailing",
+    title: "Detailing extérieur",
     heigth: "h-[475px]",
   },
   {
     image: images.CARIMG4,
-    title: "Changable Equipments",
+    title: "Équipements interchangeables",
     heigth: "h-[700px]",
   },
   {
     image: images.CARIMG3,
-    title: "Analysis Detailing",
+    title: "Detailing d'analyse",
     heigth: "h-[475px]",
   },
   {
     image: images.CARIMG8,
-    title: "Accemble Detailing",
+    title: "Detailing d'assemblage",
     heigth: "h-[600px]",
   },
   {
     image: images.CARIMG6,
-    title: "Best Equipments",
+    title: "Meilleurs équipements",
     heigth: "h-[450px]",
   },
   {
     image: images.CARIMG7,
-    title: "Exterior Detailing",
+    title: "Detailing extérieur",
     heigth: "h-[600px]",
   },
 ];

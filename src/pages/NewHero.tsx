@@ -24,13 +24,13 @@ const NewHero = () => {
       <div className="flex gap-2 items-center">
         <Icon icon="carbon:time" className="text-primary" />
         <p className="text-white font-bold text-xs">
-          Mon-Sat: 09:00 Am- 17:00 Pm
+          Lun-Sam: 09:00 Am- 17:00 Pm
         </p>
       </div>
       <div className="flex gap-2 items-center">
         <Icon icon="carbon:time" className="text-primary" />
         <p className="text-white font-bold text-xs">
-          Mon-Sat: 09:00 Am- 17:00 Pm
+          Lun-Sam: 09:00 Am- 17:00 Pm
         </p>
       </div>
     </div>
@@ -48,8 +48,8 @@ const NewHero = () => {
         Auto Tech Cameroun
       </p>
       <div className="flex-1 md:flex justify-end hidden">
-        <div className="p-4 border border-primary font-semibold w-[150px] flex justify-center rounded-sm">
-          Contact Us
+        <div className="p-4 cursor-pointer border border-primary font-semibold w-[200px] flex justify-center rounded-sm">
+          Contactez-nous
         </div>
       </div>
     </div>
@@ -61,14 +61,14 @@ const NewHero = () => {
         <div className="w-full h-full flex flex-col gap-4 justify-between items-center">
           <Header />
           <div className="w-[85%] flex flex-col gap-2 flex-1 py-4">
-            <p className="text-secondary max-md:text-xl md:text-[64px] w-3/4 font-extrabold z-10">
-              Detailing Excellence in <br /> Every Detail of Our
+            <p className="text-secondary max-md:text-xl md:text-[60px] md:w-[85%] font-extrabold z-10">
+              Excellence du detailing dans <br /> chaque détail de notre
             </p>
-            <p className="text-primary font-extrabold text-[64px] max-md:text-xl">
+            <p className="text-primary font-extrabold text-[60px] max-md:text-xl">
               Result
             </p>
-            <button className="w-[200px] bg-primary p-4 rounded-sm text-white font-bold">
-              Contact us
+            <button className="hidden md:block w-[200px] bg-primary p-4 rounded-sm text-white font-bold">
+              Contactez-nous
             </button>
           </div>
           <div className="md:absolute max-md:w-[90%] md:w-[1250px] md:h-[850px] md:px-10 ">
@@ -87,7 +87,7 @@ const NewHero = () => {
                 <div className="max-md:w-[90%] md:w-[85%] p-8 md:h-[200px] flex max-md:flex-col justify-center bg-secondary items-center">
                   <ItemContent
                     icon="el:phone-alt"
-                    title="Customer Care"
+                    title="Service Client"
                     desc="+237 691 365 544"
                   />
                   <OpenTimeItem />
@@ -98,7 +98,7 @@ const NewHero = () => {
                   />
                   <ItemContent
                     icon="gridicons:location"
-                    title="Address"
+                    title="Addresse"
                     desc="203 Baker Street, CM"
                   />
                 </div>
