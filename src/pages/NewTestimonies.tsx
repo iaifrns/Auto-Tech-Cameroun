@@ -40,7 +40,7 @@ const NewTestimonies = () => {
       <div className="md:absolute bg-secondary w-full md:h-[1300px] md:bg-opacity-80">
         <div className="w-full flex max-md:flex-col justify-between h-full">
           <div className="md:w-[50%] flex flex-col items-center mt-6">
-            <div className="sticky md:w-[650px] p-8 top-0">
+            <div className="sticky md:max-w-[650px] w-full p-8 top-0">
               <div className="flex flex-col gap-8">
                 <p className="font-bold text-white">ÉVALUATION</p>
                 <p className="font-bold md:text-[32px] max-md:text-xl text-white">
@@ -69,7 +69,7 @@ const NewTestimonies = () => {
             </div>
           </div>
           <div className="md:w-[50%] flex justify-center h-full">
-            <div className="md:w-[600px] bg-white h-full flex flex-col justify-evenly">
+            <div className="md:max-w-[600px] bg-white h-full w-full flex flex-col justify-evenly">
               <Testimony
                 img={
                   "https://images.pexels.com/photos/27977077/pexels-photo-27977077/free-photo-of-black-white-horse.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"

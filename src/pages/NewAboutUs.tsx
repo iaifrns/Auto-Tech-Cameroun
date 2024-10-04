@@ -32,7 +32,7 @@ const NewAboutUs = () => {
           <img
             src={images.CARIMG3}
             alt="about image"
-            className="md:w-[600px] md:h-[400px] w-full h-[300px] md:bg-contain max-md:object-cover"
+            className="md:w-[600px] md:h-[400px] w-full h-[300px] md:bg-contain object-cover"
           />
         </div>
         <div className="md:w-[50%] flex justify-center max-md:p-8">
