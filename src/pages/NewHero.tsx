@@ -10,26 +10,26 @@ interface itemContentType {
 
 const NewHero = () => {
   const ItemContent: React.FC<itemContentType> = ({ title, desc, icon }) => (
-    <div className="flex gap-2 items-end px-4 max-md:w-[250px] max-md:justify-center max-md:border-b max-md:p-4 md:border-r border-gray-700 h-fit">
+    <div className="flex gap-2 p-4 items-end w-[230px] max-md:w-[250px] max-md:justify-center max-md:border-b max-md:p-4 md:border-r border-gray-700 h-fit md:h-[70px]">
       <Icon icon={icon} className="text-primary text-[45px]" />
       <div className="flex flex-col gap-2">
-        <p className="text-white font-bold text-sm">{title}</p>
-        <p className="font-bold text-primary text-sm">{desc}</p>
+        <p className="text-white font-bold text-xs">{title}</p>
+        <p className="font-bold text-primary text-xs">{desc}</p>
       </div>
     </div>
   );
 
   const OpenTimeItem = () => (
-    <div className="flex flex-col gap-2 px-6 max-md:w-[250px] max-md:justify-center max-md:border-b max-md:p-4 md:border-r border-gray-700 h-fit">
+    <div className="flex flex-col gap-2 px-4 w-[260px] max-md:w-[250px] justify-center items-center max-md:border-b max-md:p-4 md:border-r border-gray-700 h-fit md:h-[70px]">
       <div className="flex gap-2 items-center">
         <Icon icon="carbon:time" className="text-primary" />
-        <p className="text-white font-bold text-xs">
+        <p className="text-white font-bold text-[12px]">
           Lun-Sam: 09:00 Am- 17:00 Pm
         </p>
       </div>
       <div className="flex gap-2 items-center">
         <Icon icon="carbon:time" className="text-primary" />
-        <p className="text-white font-bold text-xs">
+        <p className="text-white font-bold text-[12px]">
           Lun-Sam: 09:00 Am- 17:00 Pm
         </p>
       </div>
@@ -76,13 +76,13 @@ const NewHero = () => {
               <img src={images.CARIMG1} />
             </div>
           </div>
-          <div className="relative w-full md:h-[160px] z-10">
-            <div className="md:absolute w-full">
+          <div className="relative w-full md:h-[160px] z-10 md:flex md:justify-end">
+            <div className="md:absolute w-full md:min-w-[1300px] md:max-w-[1500px] max-md:w-full">
               <div className="w-full flex max-md:flex-col md:items-end md:justify-end max-md:items-center">
                 <img
                   src={images.CARIMG3}
                   alt="car taken care"
-                  className="md:w-[300px] max-md:w-[90%] md:mb-8 md:absolute left-10"
+                  className="md:w-[300px] max-md:w-[90%] md:mb-8 md:absolute left-0"
                 />
                 <div className="max-md:w-[90%] md:w-[85%] p-8 md:h-[200px] flex max-md:flex-col justify-center bg-secondary items-center">
                   <ItemContent

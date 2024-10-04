@@ -46,7 +46,7 @@ const NewTestimonies = () => {
                 <p className="font-bold md:text-[32px] max-md:text-xl text-white">
                   Ce que nos clients disent de notre travail de detailing
                 </p>
-                <p className="text-gray-500 md:text-lg">
+                <p className="text-gray-300 md:text-lg">
                   Encourager les passionnés du changement alimente le succès,
                   entraînant des innovations supérieures, plus efficaces et plus
                   robustes. Votre leadership stimule le progrès ; nous sommes
